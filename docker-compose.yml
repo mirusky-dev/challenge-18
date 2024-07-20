@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  mysql:
+    image: mysql:8.3
+    environment:
+      MYSQL_USER: mysql
+      MYSQL_PASSWORD: mysql
+      MYSQL_DATABASE: database
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+    #  - ./volumes/mysql/var/lib:/var/lib/mysql
+     - ./volumes/mysql/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+  
+  redis:
+    image: "redis:7.2.0-alpine3.18"
+    command: redis-server --appendonly yes --requirepass redis
+    ports:
+     - "6379:6379"
+    volumes:
+      - ./volumes/redis:/data
