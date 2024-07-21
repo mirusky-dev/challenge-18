@@ -11,10 +11,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/gobp/gobp/core"
-	"github.com/gobp/gobp/core/background"
-	"github.com/gobp/gobp/core/env"
-	"github.com/gobp/gobp/models/dtos"
+	"github.com/mirusky-dev/challenge-18/core"
+	"github.com/mirusky-dev/challenge-18/core/background"
+	"github.com/mirusky-dev/challenge-18/core/env"
+	"github.com/mirusky-dev/challenge-18/models/dtos"
 	"github.com/stretchr/testify/assert"
 )
 

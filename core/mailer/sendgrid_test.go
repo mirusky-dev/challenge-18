@@ -4,7 +4,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/gobp/gobp/core/env"
+	"github.com/mirusky-dev/challenge-18/core/env"
 )
 
 func Test_sendgridMailer_Send(t *testing.T) {

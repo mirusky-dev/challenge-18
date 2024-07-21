@@ -10,9 +10,9 @@ import (
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/google/uuid"
 
-	"github.com/gobp/gobp/core"
-	"github.com/gobp/gobp/core/env"
-	"github.com/gobp/gobp/repositories"
+	"github.com/mirusky-dev/challenge-18/core"
+	"github.com/mirusky-dev/challenge-18/core/env"
+	"github.com/mirusky-dev/challenge-18/repositories"
 )
 
 type ITokenService interface {

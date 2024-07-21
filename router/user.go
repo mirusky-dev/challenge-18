@@ -1,9 +1,9 @@
 package router
 
 import (
-	"github.com/gobp/gobp/core"
-	"github.com/gobp/gobp/models/dtos"
 	"github.com/gofiber/fiber/v2"
+	"github.com/mirusky-dev/challenge-18/core"
+	"github.com/mirusky-dev/challenge-18/models/dtos"
 )
 
 func (ctrl Controller) createUser(c *fiber.Ctx) error {

@@ -1,8 +1,8 @@
 package background
 
 import (
-	"github.com/gobp/gobp/core/env"
 	"github.com/hibiken/asynq"
+	"github.com/mirusky-dev/challenge-18/core/env"
 )
 
 func NewClient(config env.Config) (*asynq.Client, error) {

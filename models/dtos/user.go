@@ -6,7 +6,7 @@ import (
 
 	v "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
-	"github.com/gobp/gobp/models/entities"
+	"github.com/mirusky-dev/challenge-18/models/entities"
 )
 
 type User struct {

@@ -3,8 +3,8 @@ package router
 import (
 	"errors"
 
-	"github.com/gobp/gobp/core"
 	"github.com/gofiber/fiber/v2"
+	"github.com/mirusky-dev/challenge-18/core"
 )
 
 func (ctrl Controller) empty(c *fiber.Ctx) error {

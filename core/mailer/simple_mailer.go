@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gobp/gobp/core/env"
+	"github.com/mirusky-dev/challenge-18/core/env"
 	simplemail "github.com/xhit/go-simple-mail/v2"
 )
 

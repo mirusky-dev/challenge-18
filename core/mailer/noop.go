@@ -3,7 +3,7 @@ package mailer
 import (
 	"fmt"
 
-	"github.com/gobp/gobp/core/env"
+	"github.com/mirusky-dev/challenge-18/core/env"
 )
 
 type noopMailer struct{}

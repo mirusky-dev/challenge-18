@@ -3,10 +3,10 @@ package services
 import (
 	"context"
 
-	"github.com/gobp/gobp/core"
-	"github.com/gobp/gobp/models/dtos"
-	"github.com/gobp/gobp/models/entities"
-	"github.com/gobp/gobp/repositories"
+	"github.com/mirusky-dev/challenge-18/core"
+	"github.com/mirusky-dev/challenge-18/models/dtos"
+	"github.com/mirusky-dev/challenge-18/models/entities"
+	"github.com/mirusky-dev/challenge-18/repositories"
 )
 
 type IUserService interface {

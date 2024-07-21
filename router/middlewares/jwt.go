@@ -1,10 +1,10 @@
 package middlewares
 
 import (
-	"github.com/gobp/gobp/core"
-	"github.com/gobp/gobp/core/env"
 	"github.com/gofiber/fiber/v2"
 	jwtware "github.com/gofiber/jwt/v3"
+	"github.com/mirusky-dev/challenge-18/core"
+	"github.com/mirusky-dev/challenge-18/core/env"
 )
 
 // JWT Resolves jwt

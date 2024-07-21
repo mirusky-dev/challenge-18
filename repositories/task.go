@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/gobp/gobp/core"
-	"github.com/gobp/gobp/models/entities"
+	"github.com/mirusky-dev/challenge-18/core"
+	"github.com/mirusky-dev/challenge-18/models/entities"
 	"golang.org/x/exp/slices"
 
 	"gorm.io/gorm"

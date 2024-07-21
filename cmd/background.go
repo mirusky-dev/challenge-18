@@ -11,12 +11,12 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 
-	"github.com/gobp/gobp/core/background"
-	"github.com/gobp/gobp/core/background/events"
-	"github.com/gobp/gobp/core/background/handlers"
-	"github.com/gobp/gobp/core/env"
-	"github.com/gobp/gobp/core/mailer"
-	"github.com/gobp/gobp/repositories"
+	"github.com/mirusky-dev/challenge-18/core/background"
+	"github.com/mirusky-dev/challenge-18/core/background/events"
+	"github.com/mirusky-dev/challenge-18/core/background/handlers"
+	"github.com/mirusky-dev/challenge-18/core/env"
+	"github.com/mirusky-dev/challenge-18/core/mailer"
+	"github.com/mirusky-dev/challenge-18/repositories"
 )
 
 func newCmdBackground() *cobra.Command {

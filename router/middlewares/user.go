@@ -1,10 +1,10 @@
 package middlewares
 
 import (
-	"github.com/gobp/gobp/core"
-	"github.com/gobp/gobp/services"
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt/v4"
+	"github.com/mirusky-dev/challenge-18/core"
+	"github.com/mirusky-dev/challenge-18/services"
 )
 
 // User middleware resolves the current user based on JWT token

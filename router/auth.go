@@ -6,8 +6,8 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt/v4"
 
-	"github.com/gobp/gobp/core"
-	"github.com/gobp/gobp/models/dtos"
+	"github.com/mirusky-dev/challenge-18/core"
+	"github.com/mirusky-dev/challenge-18/models/dtos"
 )
 
 func (ctrl Controller) context(c *fiber.Ctx) error {

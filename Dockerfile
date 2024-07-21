@@ -24,10 +24,10 @@ COPY . .
 # -o bin output
 RUN CGO_ENABLED=0 GOOS=linux go build -trimpath \
     -ldflags="-s -w \
-    -X 'github.com/gobp/gobp/core/env.SHORT_COMMIT=$SHORT_COMMIT' \
-    -X 'github.com/gobp/gobp/core/env.LONG_COMMIT=$LONG_COMMIT' \
-    -X 'github.com/gobp/gobp/core/env.VERSION=$VERSION' \
-    -X 'github.com/gobp/gobp/core/env.BUILD_TIME=$BUILD_TIME'" \
+    -X 'github.com/mirusky-dev/challenge-18/core/env.SHORT_COMMIT=$SHORT_COMMIT' \
+    -X 'github.com/mirusky-dev/challenge-18/core/env.LONG_COMMIT=$LONG_COMMIT' \
+    -X 'github.com/mirusky-dev/challenge-18/core/env.VERSION=$VERSION' \
+    -X 'github.com/mirusky-dev/challenge-18/core/env.BUILD_TIME=$BUILD_TIME'" \
     -o /app/gobp
 
 ############################
@@ -48,7 +48,7 @@ LABEL VERSION=${VERSION}
 
 # TODO: Add useful labels 
 # TODO: Add github labels
-# LABEL org.opencontainers.image.source https://github.com/gobp/gobp
+# LABEL org.opencontainers.image.source https://github.com/mirusky-dev/challenge-18
 
 # Copy our static executable.
 COPY --from=builder /app/gobp /app/gobp

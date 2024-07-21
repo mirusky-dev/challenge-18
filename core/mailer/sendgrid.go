@@ -6,8 +6,8 @@ import (
 	"github.com/sendgrid/sendgrid-go"
 	"github.com/sendgrid/sendgrid-go/helpers/mail"
 
-	"github.com/gobp/gobp/core"
-	"github.com/gobp/gobp/core/env"
+	"github.com/mirusky-dev/challenge-18/core"
+	"github.com/mirusky-dev/challenge-18/core/env"
 )
 
 type sendgridMailer struct {

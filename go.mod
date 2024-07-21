@@ -1,4 +1,4 @@
-module github.com/gobp/gobp
+module github.com/mirusky-dev/challenge-18
 
 go 1.20
 

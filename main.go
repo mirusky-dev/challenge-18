@@ -1,6 +1,6 @@
 package main
 
-import "github.com/gobp/gobp/cmd"
+import "github.com/mirusky-dev/challenge-18/cmd"
 
 func main() {
 	cmd.NewCmdRoot().Execute()

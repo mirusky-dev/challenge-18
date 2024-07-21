@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/gobp/gobp/core"
-	"github.com/gobp/gobp/core/background/events"
-	"github.com/gobp/gobp/models/dtos"
-	"github.com/gobp/gobp/models/entities"
-	"github.com/gobp/gobp/repositories"
 	"github.com/hibiken/asynq"
+	"github.com/mirusky-dev/challenge-18/core"
+	"github.com/mirusky-dev/challenge-18/core/background/events"
+	"github.com/mirusky-dev/challenge-18/models/dtos"
+	"github.com/mirusky-dev/challenge-18/models/entities"
+	"github.com/mirusky-dev/challenge-18/repositories"
 	"golang.org/x/exp/slices"
 )
 

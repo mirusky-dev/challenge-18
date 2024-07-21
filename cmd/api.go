@@ -7,9 +7,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gobp/gobp/core/background"
-	"github.com/gobp/gobp/core/env"
-	"github.com/gobp/gobp/router"
+	"github.com/mirusky-dev/challenge-18/core/background"
+	"github.com/mirusky-dev/challenge-18/core/env"
+	"github.com/mirusky-dev/challenge-18/router"
 	"github.com/spf13/cobra"
 )
 

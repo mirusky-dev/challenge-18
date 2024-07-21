@@ -1,8 +1,8 @@
 package middlewares
 
 import (
-	"github.com/gobp/gobp/core"
 	"github.com/gofiber/fiber/v2"
+	"github.com/mirusky-dev/challenge-18/core"
 )
 
 // Context middleware creates a new userCtx for each request

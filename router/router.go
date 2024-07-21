@@ -10,12 +10,12 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 
-	"github.com/gobp/gobp/core"
-	"github.com/gobp/gobp/core/env"
-	"github.com/gobp/gobp/core/mailer"
-	"github.com/gobp/gobp/repositories"
-	"github.com/gobp/gobp/router/middlewares"
-	"github.com/gobp/gobp/services"
+	"github.com/mirusky-dev/challenge-18/core"
+	"github.com/mirusky-dev/challenge-18/core/env"
+	"github.com/mirusky-dev/challenge-18/core/mailer"
+	"github.com/mirusky-dev/challenge-18/repositories"
+	"github.com/mirusky-dev/challenge-18/router/middlewares"
+	"github.com/mirusky-dev/challenge-18/services"
 )
 
 var (
