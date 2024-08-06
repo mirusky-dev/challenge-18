@@ -240,3 +240,4 @@ volumes/*
 !volumes/postgres/.gitkeep
 !volumes/clickhouse/.gitkeep
 !volumes/mysql/.gitkeep
+!volumes/mysql/docker-entrypoint-initdb.d/
